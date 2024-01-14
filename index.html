@@ -6,13 +6,20 @@
   <title>document</title>
   </head>
   <body>
-    <form onsubmit="window.alert('ფორმა დადასტურდა')">
+     <script>
       
-    <input type="text">
-    <br>
-    <input type="submit">
+      function chemi_punkcia() {
+        document.write("ფორმა დადასტურდა")
+      }
 
-    </form>
+    </script>
+    <form onsubmit="chemi_punkcia()">
+      <input type="text">
+      <br>
+      <input type="submit">
+      </form>
+
+  
   </body>
 </html>
   
